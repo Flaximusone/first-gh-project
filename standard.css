@@ -1,0 +1,164 @@
+.bodyheraus{
+    display: flex;
+    justify-content: center;  
+}
+.bodyhaupt{
+    background-color: rgb(252, 250, 246);
+    box-shadow:2px 2px 5px 0px rgb(97, 97, 97);
+    min-width: 550px;
+    height: 800px;
+ 
+}
+
+
+
+/* Navigation */
+.kopfzeile {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100px;
+    width: 1100px;
+    position: fixed;
+    background-color: rgb(252, 250, 246);  
+ }
+
+.test{
+    border-radius: 3px;
+    width: 150px;
+    height: 80px;
+}
+.test:hover{
+   background-image: url('Bilder/DCI_COLORS\ logo.svg');
+   background-color: rgb(255, 252, 80);  
+   box-shadow:15px  4px 25px 0px rgb(255, 0, 0);
+   width: 150px;
+   height: 80px;
+}
+.ausfaltbarI>img{
+    width: 30px;
+
+}
+
+.none {
+    display: none;
+}
+
+/* Menu */
+.ausfaltbarI{
+    background-color: #3b3c3e;
+    color: white;
+    font-size: 16px;
+    width: 60px;
+    height: 40px;
+    cursor: pointer;
+}
+.breakingnews:hover .ausfaltbarI{
+    background-color: #000000;
+}
+
+
+/* Breakingnews */
+.breakingnews{
+    position: relative;
+    display: inline-block;
+   
+}
+.ausfaltbar{
+    background-color: #116ddf;
+    color: white;
+    font-size: 16px;
+    width: 143px;
+    cursor: pointer;
+}
+
+.ausfaltbarbox{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.ausfaltbarbox a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.ausfaltbarbox a:hover{
+    background-color: #f1f1f1
+}
+.breakingnews:hover .ausfaltbarbox{
+    display: block;
+}
+.breakingnews:hover .ausfaltbar{
+    background-color: #6fa7eb;
+}
+
+
+/* Beispiel */
+.container {
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 105px; 
+   }
+
+.container section {
+       width: 989px;
+       height: 345px;
+       background-color: rgb(255, 255, 255);
+       box-shadow:1px 1px 3px 2px rgb(172, 168, 172);
+       border-radius: 5px;
+   }
+.imcontainer>img:hover{
+   height: 190px;
+   
+   }
+.imcontainer img{
+   width: 300px;
+   height: 150px;
+   border-radius: 5px;
+    }
+
+
+
+footer{
+    display: flex; 
+    justify-content: center;
+    align-items: center;   
+    height: 200px;
+    width: 1100px;
+    background-color: rgb(127, 125, 125);
+    margin-top: 150px;
+    
+    
+   
+}
+footer > ul{
+   
+    display: flex;
+    gap: 70px;
+    list-style: none;
+   
+    
+}
+footer > ul > li{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 55px;
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    box-shadow: 15px 20px 10px 0px rgb(0, 0, 0);
+}
+footer > ul > li:hover{
+    box-shadow: 0px 0px 10px 10px rgb(255, 255, 138);
+    background-color: rgb(255, 255, 138);
+}
+footer > ul > li>a{
+    margin-top: 3px;
+}

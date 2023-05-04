@@ -1,0 +1,368 @@
+.bodyheraus{
+    display: flex;
+    justify-content: center;  
+}
+.bodyhaupt{
+    background-color: rgb(252, 250, 246);
+    box-shadow:2px 2px 5px 0px rgb(97, 97, 97);
+    min-width: 550px;
+}
+
+
+
+/* Navigation */
+.kopfzeile {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100px;
+    width: 1100px;
+    position: fixed;
+    background-color: rgb(252, 250, 246);  
+ }
+.test{
+    border-radius: 3px;
+    width: 150px;
+    height: 80px;
+    cursor: pointer;
+}
+.test:hover{
+   background-image: url('Bilder/DCI_COLORS\ logo.svg');
+   background-color: rgb(255, 255, 255);  
+   box-shadow:15px  4px 25px 0px rgb(166, 166, 166);
+   width: 150px;
+   height: 80px;
+}
+.ausfaltbarI>img{
+    width: 30px;
+}
+.none {
+    display: none;
+}
+/* Menu */
+.ausfaltbarI{
+    background-color: #eff2f9;
+    color: white;
+    font-size: 16px;
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+}
+.breakingnews:hover .ausfaltbarI{
+    background-color: #000000;
+}
+
+
+/* Breakingnews */
+.breakingnews{
+    position: relative;
+    display: inline-block;
+   
+}
+.ausfaltbar{
+    background-color: #116ddf;
+    color: white;
+    font-size: 16px;
+    width: 143px;
+    cursor: pointer;
+}
+
+.ausfaltbarbox{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+}
+.ausfaltbarbox a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.ausfaltbarbox a:hover{
+    background-color: #e0e4f6
+}
+.breakingnews:hover .ausfaltbarbox{
+    display: block;
+    background-color: #bbc4ce;
+}
+.breakingnews:hover .ausfaltbar{
+    background-color: #6fa7eb;
+}
+
+/* erste Reihe */
+div > img {
+    width: 250px;
+    height: 180px;
+    margin-left: 5px;
+}
+div > img:hover{
+    width: 300px;
+    height: 250px;
+}
+.bildtextsectiongruppe {
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 55px;
+}
+.bildtextsection {
+    background-color: rgb(255, 255, 255);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 22px; 
+    height: 250px;
+    margin-top: 49px;
+    box-shadow:1px 1px 3px 2px rgb(172, 168, 172);
+    border-radius: 5px;
+    }
+ .paragborder{
+     width: 214px;    
+}
+
+ 
+
+/* zweite Reihe */
+.container {
+     display: flex; 
+     justify-content: center;
+     flex-wrap: wrap;
+     gap: 50px;
+     margin-top: 25px; 
+    }
+.imcontainer {
+        width: 300px;
+        height: 300px;
+        background-color: rgb(233, 238, 227);  
+}
+.container section {
+        width: 300px;
+        background-color: rgb(255, 255, 255);
+        box-shadow:1px 1px 3px 2px rgb(172, 168, 172);
+        border-radius: 5px;
+    }
+.imcontainer>img:hover{
+    height: 190px;
+    
+    }
+.imcontainer img{
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+     }
+
+
+
+     
+     /* vierte Reihe */
+.unter{
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(245, 241, 198);
+    margin-top: 15px;
+    width: 1100px;
+    box-shadow: 2px 2px 2px px rgb(204, 209, 211);
+ 
+}
+.K1{
+ width: 997px;
+ 
+}
+
+
+
+/* fünfte Reihe */
+.bildlink{
+    display: flex; 
+     justify-content: center;
+     flex-wrap: wrap;
+     gap: 50px;
+     margin-top: 25px;
+}
+.bildlink> section > a > img {
+    width: 300px;
+    height: 271px;
+    box-shadow:3px 3px 2px 2px rgb(186, 181, 186);
+    border-radius: 5px;
+    }
+.hoverbild:hover{
+    box-shadow:3px 3px 2px 2px rgb(255, 237, 74);
+}
+
+/* Linie */
+.Linie{
+    width: 1025px;
+    margin-top: 25px;
+    border: 2px rgb(0, 0, 0) solid;  
+    
+}
+
+.Linieflex{
+    display: flex;
+    justify-content: center;
+}
+
+/* sechte Reihe */
+.packetfix{ 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.packet{
+    background-color: rgb(252, 250, 246);
+    box-shadow:5px 5px 4px 3px rgb(172, 168, 172); 
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 375px;
+    margin-top: 25px;
+    width: 1050px;
+    
+}
+.boxinbox{
+     display: flex; 
+     justify-content: center;
+     flex-wrap: wrap;
+     margin-top: 25px;
+     gap: 10px;
+     width: 350px;
+     height: 20px;
+}
+.boxinbox>a {
+    width: 300px;
+    box-shadow:1px 1px 3px 2px rgb(187, 184, 187);
+    border-radius: 5px;
+    background-color: rgb(252, 250, 246);
+    gap: 2px;
+}
+
+.boxinbox > a >img{
+    width: 120px;
+    height: 100px;  
+    margin-left: 1px;
+}
+.boxinbox > a{
+    display: flex;
+}
+.boxinbox>a:hover{
+    box-shadow:1px 1px 3px 2px rgb(100, 97, 100);
+}
+
+
+
+
+
+footer{
+    display: flex; 
+    justify-content: center;
+    align-items: center;   
+    height: 200px;
+    width: 1100px;
+    background-color: rgb(127, 125, 125);
+    margin-top: 35px;
+    
+    
+   
+}
+footer > ul{
+   
+    display: flex;
+    gap: 70px;
+    list-style: none;
+   
+    
+}
+footer > ul > li{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 55px;
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    box-shadow: 15px 20px 10px 0px rgb(0, 0, 0);
+}
+footer > ul > li:hover{
+    box-shadow: 0px 0px 10px 10px rgb(255, 255, 138);
+    background-color: rgb(255, 255, 138);
+}
+footer > ul > li>a{
+    margin-top: 3px;
+}
+
+
+
+/* ab hier ++ Style für unterseiten (verlinkung) */
+
+.bodylink{
+    display: flex;
+    justify-content: center;
+}
+
+
+.bodyhauptlink{
+    background-color: rgb(252, 250, 246);
+    box-shadow:2px 2px 5px 0px rgb(97, 97, 97);
+    min-width: 550px;
+    width: 1100px;
+}
+
+
+.flexlink{
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+    margin-top: 105px;
+    margin-left: 25px;
+}
+.bildtextsectiongruppelink{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 250px;
+    gap: 8px;
+    box-shadow: 2px 2px 10px 2px rgb(184, 180, 180);   
+}
+.photos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1025px;
+    height: 250px;
+    margin-bottom: 15px;
+}
+.nrskalierung{ 
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100px;
+    height: 100px;
+    font-weight: 800;
+    font-size: 80px;
+    background-color: rgb(245, 135, 95);
+    box-shadow: 2px 2px 5px 2px rgb(141, 138, 138);
+    margin-left: 10px; 
+}
+.paragborderlink{
+    margin-top: 80px;
+    width: 800px;
+    font-weight: 500;
+    font-size: x-large;
+    
+}
+
+.h-skalierung{
+    font-size: x-large;
+}
+
