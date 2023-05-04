@@ -1,1 +1,1 @@
-# first-gh-project abschlußprojekt
+# first-gh-project Abschlußprojekt
